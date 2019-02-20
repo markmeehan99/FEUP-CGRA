@@ -21,7 +21,7 @@ class MyScene extends CGFscene {
 
         //Initialize scene objects
         this.axis = new CGFaxis(this);
-        this.diamond = new MyDiamond(this);
+        this.parallelogram = new MyParallelogram(this);
 
         //Objects connected to MyInterface
         this.displayAxis = true;
@@ -68,7 +68,7 @@ class MyScene extends CGFscene {
 
         // ---- BEGIN Primitive drawing section
 
-        this.diamond.display();
+        this.parallelogram.display();
 
         // ---- END Primitive drawing section
     }
